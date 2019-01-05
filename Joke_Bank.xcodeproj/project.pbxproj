@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		490941D621E0168E00C0156E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490941D521E0168E00C0156E /* AppDelegate.swift */; };
-		490941D821E0168E00C0156E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490941D721E0168E00C0156E /* ViewController.swift */; };
 		490941DB21E0168E00C0156E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 490941D921E0168E00C0156E /* Main.storyboard */; };
 		490941DD21E0168E00C0156E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 490941DC21E0168E00C0156E /* Assets.xcassets */; };
 		490941E021E0168E00C0156E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 490941DE21E0168E00C0156E /* LaunchScreen.storyboard */; };
+		490941E821E016B400C0156E /* JokeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490941E721E016B400C0156E /* JokeTableViewController.swift */; };
+		490941EA21E03F2E00C0156E /* JokeDefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490941E921E03F2E00C0156E /* JokeDefinitionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		490941D221E0168E00C0156E /* Joke_Bank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Joke_Bank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		490941D521E0168E00C0156E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		490941D721E0168E00C0156E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		490941DA21E0168E00C0156E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		490941DC21E0168E00C0156E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		490941DF21E0168E00C0156E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		490941E121E0168E00C0156E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		490941E721E016B400C0156E /* JokeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeTableViewController.swift; sourceTree = "<group>"; };
+		490941E921E03F2E00C0156E /* JokeDefinitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeDefinitionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				490941D521E0168E00C0156E /* AppDelegate.swift */,
-				490941D721E0168E00C0156E /* ViewController.swift */,
+				490941E721E016B400C0156E /* JokeTableViewController.swift */,
+				490941E921E03F2E00C0156E /* JokeDefinitionViewController.swift */,
 				490941D921E0168E00C0156E /* Main.storyboard */,
 				490941DC21E0168E00C0156E /* Assets.xcassets */,
 				490941DE21E0168E00C0156E /* LaunchScreen.storyboard */,
@@ -135,7 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				490941D821E0168E00C0156E /* ViewController.swift in Sources */,
+				490941EA21E03F2E00C0156E /* JokeDefinitionViewController.swift in Sources */,
+				490941E821E016B400C0156E /* JokeTableViewController.swift in Sources */,
 				490941D621E0168E00C0156E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
