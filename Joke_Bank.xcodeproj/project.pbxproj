@@ -13,6 +13,7 @@
 		490941E021E0168E00C0156E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 490941DE21E0168E00C0156E /* LaunchScreen.storyboard */; };
 		490941E821E016B400C0156E /* JokeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490941E721E016B400C0156E /* JokeTableViewController.swift */; };
 		490941EA21E03F2E00C0156E /* JokeDefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490941E921E03F2E00C0156E /* JokeDefinitionViewController.swift */; };
+		49783C9621E05861009D490A /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49783C9521E05861009D490A /* Joke.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		490941E121E0168E00C0156E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		490941E721E016B400C0156E /* JokeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeTableViewController.swift; sourceTree = "<group>"; };
 		490941E921E03F2E00C0156E /* JokeDefinitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeDefinitionViewController.swift; sourceTree = "<group>"; };
+		49783C9521E05861009D490A /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				490941D521E0168E00C0156E /* AppDelegate.swift */,
+				49783C9521E05861009D490A /* Joke.swift */,
 				490941E721E016B400C0156E /* JokeTableViewController.swift */,
 				490941E921E03F2E00C0156E /* JokeDefinitionViewController.swift */,
 				490941D921E0168E00C0156E /* Main.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				490941EA21E03F2E00C0156E /* JokeDefinitionViewController.swift in Sources */,
 				490941E821E016B400C0156E /* JokeTableViewController.swift in Sources */,
+				49783C9621E05861009D490A /* Joke.swift in Sources */,
 				490941D621E0168E00C0156E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
